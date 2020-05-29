@@ -1,13 +1,20 @@
+# Django project with Mongo
+
+<p>After taking clone of this repo run following command to install packages
+    
+```
 pipenv install
-##prerequisite
+```
+
+### Prerequisite
 
 ```
-python
+python - Version 3.5 or above
 mongodb
-pip install pipenv: if pipenv is not installed then run this command
+pip install pipenv - if pipenv is not installed then run this command
 ```
 
-##Steps:
+### Steps for creating project from scratch:
 
 <p>1.Create a Project Folder</p>
 ```
