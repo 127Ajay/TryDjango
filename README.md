@@ -77,3 +77,9 @@ pip install pipenv - if pipenv is not installed then run this command
 ```
     python manage.py runserver
 ```
+
+<p>12.Create App Component</p>
+
+```
+python manage.py startapp blog
+```
