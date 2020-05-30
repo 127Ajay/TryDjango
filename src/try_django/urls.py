@@ -25,5 +25,6 @@ urlpatterns = [
     path('contact/', contact_page),
     path('admin/', admin.site.urls),
     path('example/', example_page),
-    path('blogdetails/', blog_post_detail_page),
+    path('blogdetails/<str:slug>/', blog_post_detail_page),
+    #re_path(r'^blogdetails/(?P<slug>\w+)/$', blog_post_detail_page)
 ]
